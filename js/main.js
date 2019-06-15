@@ -22,6 +22,8 @@ function display(x){
 	document.getElementById('desc').innerHTML = hotelInfo[x].description;
 	document.getElementById('photo').src = hotelInfo[x].photo;
 
+	document.getElementById('weekday').innerHTML = hotelInfo[x].cost.weekday;
+
 }
  
 
