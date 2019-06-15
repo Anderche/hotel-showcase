@@ -8,11 +8,11 @@ xhr.send();
 
 
 xhr.onload = function() {
-    if(xhr.status === 200) {
-        hotelInfo = JSON.parse(xhr.responseText);
-        console.log(hotelInfo);
-  
-    } // end if
+  if(xhr.status === 200) {
+    hotelInfo = JSON.parse(xhr.responseText);
+    console.log(hotelInfo);
+		display(0);
+  } // end if
 } // end function
 
 
