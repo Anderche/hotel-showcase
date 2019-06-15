@@ -14,3 +14,10 @@ xhr.onload = function() {
   
     } // end if
 } // end function
+
+
+function display(x){
+	console.log(x);
+}
+ 
+
