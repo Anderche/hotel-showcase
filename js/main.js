@@ -20,6 +20,7 @@ function display(x){
 	console.log(x);
 	document.getElementById('roomName').innerHTML = hotelInfo[x].name;
 	document.getElementById('desc').innerHTML = hotelInfo[x].description;
+	document.getElementById('photo').src = hotelInfo[x].photo;
 
 }
  
