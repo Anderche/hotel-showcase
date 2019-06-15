@@ -18,6 +18,8 @@ xhr.onload = function() {
 
 function display(x){
 	console.log(x);
+	document.getElementById('roomName').innerHTML = hotelInfo[x].name;
+
 }
  
 
