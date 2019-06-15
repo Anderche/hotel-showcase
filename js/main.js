@@ -25,6 +25,16 @@ function display(x){
 	document.getElementById('weekday').innerHTML = hotelInfo[x].cost.weekday;
 	document.getElementById('weekend').innerHTML = hotelInfo[x].cost.weekend;
 
+// Details have multiple values in the object. Therefore, a loop is need to extract each value. As a result, a variable must first be set to empty.
+
+	details = [];
+	for (i=0; i<hotelInfo[x].details.length; i++) {
+		console.log(hotelInfo[x].details[i]);
+		details += hotelInfo[x].details[i];
+	} // end loop
+
+	document.getElementById('details').innerHTML = details;
+
 }
  
 
