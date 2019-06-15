@@ -23,6 +23,7 @@ function display(x){
 	document.getElementById('photo').src = hotelInfo[x].photo;
 
 	document.getElementById('weekday').innerHTML = hotelInfo[x].cost.weekday;
+	document.getElementById('weekend').innerHTML = hotelInfo[x].cost.weekend;
 
 }
  
